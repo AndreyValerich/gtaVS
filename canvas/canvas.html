@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="pult">
+      <div class="button"  >
+Вверх
+      </div>
+      <div class="button">
+Вправо
+      </div>
+      <div class="button">
+Влево
+      </div>
+
+      <div class="button">
+Вниз
+      </div>
+      <div class="button2" onclick="added()">
+Создать
+      </div>
+    </div>
+
+<canvas id="canvas" width="600" height="600">
+<script type="">
+  let canvas = document.getElementById('canvas'); //доступ
+  let ctx = canvas.getContext('2d');//указали что будем выводить
+
+function added(){
+ctx.clearRect(0, 0, 50, 50);
+ctx.fillRect(0, 0, 50, 50);
+
+}                                    //2д изображение
+</script>
+
+
+</canvas>
+
+
+  </body>
+</html>
